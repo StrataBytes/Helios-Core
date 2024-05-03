@@ -59,18 +59,25 @@ To set up Helios Core on your system, follow these steps:
 4. Run the application: python3 app.py
 
 
-## Usage
+## More Installation Notes:
 
+**Operating System**
+This project has been tested using Ubuntu 22.04. While it may work on other distros, Ubuntu is the confirmed one.
+
+**Install Python**
+If not already, be sure python3 is installed.
+
+**Install Libraries**
+Navigate to the project and run ```pip install -r requirements.txt```
+
+**Start the Core**
 Start the Helios Core by executing the `app.py` script. This will initialize the services and the Flask server for the frontend. Access the web interface by navigating to `http://localhost:5000` in your web browser.
 
 ## Future Plans
 
-- **Self-Heal Function:** To further mimic malware behaviors, a future update will include a self-heal function. This function will create backups of the script in different locations. If one instance is deleted, the other will replicate itself, necessitating the use of safe mode or Hirens for complete removal.
-
-## Contributing
-
-Contributions to Helios Core are welcome! Please read our CONTRIBUTING.md for guidelines on how to make contributions.
-
+- **Front-End and Back end Refinement:** Refining how the face interacts with the world, and giving more interactive detail.
+- **Gestures for Human Detection:** By adding gesture detection, this will allow more interactivity.
+- **Voice Command Searches:** Being able to ask Helios questions and it respond to your querys will be a good addition.
 
 ## Acknowledgments
 
