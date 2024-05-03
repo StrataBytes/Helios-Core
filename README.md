@@ -2,7 +2,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) <br>
 **Author:** StrataBytes
 
-Welcome to the Helios Core repository! Helios Core is the backbone of our security robot, developed as a senior capstone project at CCIC. This project builds upon the Unitree GO2 robot, enhancing it with a suite of additional functionalities for security applications.
+Welcome to the Helios Core repository! Helios Core is the backbone of our security robot, developed as a senior capstone project at CCIC. This project builds upon the Unitree GO2 robot, enhancing it with a suite of additional functionalities for security applications and interactivity.
 
 ## Project Structure
 
