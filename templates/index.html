@@ -1,0 +1,55 @@
+<!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.6.1/dist/gsap.min.js"></script> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Screen</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js" integrity="sha384-DkkIVWVHr8NKqCxPCtAdTHcXXShedrAtnVn7q7kBYdRHLYd0VQE0PsdB6v4uVklf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.6.1/dist/gsap.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+        
+
+</head>
+<body onload="initializeBlinking()"> 
+    <br><br><br><br><br><br><br>
+<!-- Uncoment everything in the div to get debug panel. -->
+    <div id="emotion-control">
+        <!-- <p>Debug Emotion Control Panel</p>
+        <button onclick="changeEmotion('happy')">Happy</button>
+        <button onclick="changeEmotion('neutral')">Neutral/Annoyed</button>
+        <button onclick="changeEmotion('sad')">Sad</button>
+        <button onclick="changeEmotion('veryHappy')">Very Happy</button>
+        <button onclick="surprisedAnimation()">Surprised</button>
+        <button onclick="thinkingAnimation()">Thinking</button>
+        <p>Debug Animation Control Panel</p>
+        <button onclick="nodAnimation()">Nod</button>
+        <button onclick="nod2xAnimation()">Nod 2x</button>
+        <button onclick="lookLeftAnimation()">Look Left</button>
+        <button onclick="lookRightAnimation()">Look Right</button>
+
+
+        <p>Other</p>-->
+        <!-- <button id="toggle-bg-btn">Toggle Background Color</button> -->
+    </div>
+
+
+    <div id="face-container">
+        <div id="head" class="circle"></div>
+        <div id="left-eye" class="eye"></div>
+        <div id="right-eye" class="eye"></div>
+        <div id="mouth-container">
+            <div id="mouth" class="mouth"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
