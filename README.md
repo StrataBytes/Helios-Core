@@ -4,6 +4,11 @@
 
 Welcome to the Helios Core repository! Helios Core is the backbone of our security robot, developed as a senior capstone project at CCIC. This project builds upon the Unitree GO2 robot, enhancing it with a suite of additional functionalities for security applications and interactivity.
 
+Please be aware that this project is still a prototype.
+
+Check out the website! 
+[![Helios Website](https://helios-project.netlify.app/)
+
 ## Project Structure
 
 Helios Core operates as a central script (`app.py`) that controls various services within the robot, allowing for modular additions and updates. Here's a high-level overview of the project directories and files:
