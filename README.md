@@ -7,7 +7,7 @@ Welcome to the Helios Core repository! Helios Core is the backbone of our securi
 Please be aware that this project is still a prototype.
 
 Check out the website! 
-[![Helios Website](https://helios-project.netlify.app/)
+[Helios Website](https://helios-project.netlify.app/)
 
 ## Project Structure
 
