@@ -1,0 +1,140 @@
+/* Welcome to the CSS for the front end. Here you can find all styles used to make the face. */
+
+
+
+body {
+    background-color: #080707;
+}
+
+
+
+
+#face-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto; 
+}
+
+.circle {
+    border: 10px solid #6bb0ef;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.eye {
+    background-color: #6bb0ef;
+    position: absolute;
+    border-radius: 50%; 
+    width: 30px; 
+    height: 30px; 
+    transform-origin: center bottom;
+}
+
+#left-eye {
+    top: 50px;
+    left: 60px;
+}
+
+#right-eye {
+    top: 50px;
+    right: 45px;
+}
+#mouth-container {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*mouth - happy*/
+.mouth {
+    position: absolute;
+    bottom: 40px; 
+    left: 50%; 
+    transform: translateX(-40%) rotate(0deg); 
+    width: 80px; 
+    height: 20px; 
+    border: 10px solid #6bb0ef; 
+    border-radius: 0 0 50px 50px; 
+    border-top: none; 
+    background-color: transparent;
+    transition: all 0.3s ease; 
+    
+}
+
+
+/*neutral - annoyed */
+.neutral {
+    position: absolute;
+    bottom: 60px; 
+    left: 55%; 
+    transform: translateX(-40%); 
+    width: 80px;
+    height: 10px; 
+    background-color: #6bb0ef;
+    border: none;
+    transition: all 0.3s ease; 
+}
+
+
+/*sad*/
+.sad {
+    position: absolute;
+    bottom: 40px; 
+    left: 50%; 
+    transform: translateX(-40%) rotate(180deg); 
+    width: 80px; 
+    height: 20px; 
+    border: 10px solid #6bb0ef; 
+    border-radius: 0 0 50px 50px; 
+    border-top: none;
+    background-color: transparent;
+    transition: all 0.3s ease; 
+    
+}
+
+/*very happy mouth*/
+.veryHappy {
+    position: absolute;
+    bottom: 15px;
+    left: 55%;
+    transform: translateX(-43%) rotate(180deg);
+    width: 120px; 
+    height: 60px; 
+    background-color: #6bb0ef; 
+    border-radius: 60px 60px 0 0; 
+    border: none;
+    transition: all 0.3s ease; 
+}
+
+
+
+
+/*surprised mouth*/
+.surprised {
+    position: absolute;
+    bottom: 30px; 
+    left: 55%;
+    transform: translateX(-43%);
+    width: 60px; 
+    height: 60px; 
+    background-color: #6bb0ef;
+    border-radius: 50%; 
+    border: none;
+}
+
+
+/*thinking mouth*/
+.thinking {
+    position: absolute;
+    bottom: 60px; 
+    left: 55%;
+    transform: translateX(-43%);
+    width: 80px;
+    height: 10px; 
+    background-color: #6bb0ef;
+    border-radius: 30px; 
+    border: none;
+}
