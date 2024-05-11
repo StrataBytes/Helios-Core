@@ -11,7 +11,7 @@ Check out the website!
 
 ## Project Structure
 
-Helios Core operates as a central script (`app.py`) that controls various services within the robot, allowing for modular additions and updates. Here's a high-level overview of the project directories and files:
+Helios Core operates as a central script (`app.py`) that controls various add-on services for the robot, allowing for modular additions and updates. Here's a high-level overview of the project directories and files:
 ```
 C:.
 |   app.py              # Core script for controlling services
